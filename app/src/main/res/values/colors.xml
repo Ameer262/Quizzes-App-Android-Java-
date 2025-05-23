@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#800282</color>
+    <color name="purple_500">#7E0387</color>
+    <color name="purple_700">#830188</color>
+
+    <color name="myOrange">#E6A757</color>
+    <color name="lightestBlue">#CBE1f4</color>
+    <color name="myBlue">#7182DC</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#d2d2d2</color>
+
+    <color name="myOrange_20">#33E6A757</color>
+
+
+    <color name="homeColor">#1194AA</color>
+    <color name="createColor">#CD379D</color>
+    <color name="profileColor">#AE7E0F</color>
+
+    <color name="homeColor_20">#331194AA</color>
+    <color name="createColor_20">#33CD379D</color>
+    <color name="profileColor_20">#33AE7E0F</color>
+
+</resources>

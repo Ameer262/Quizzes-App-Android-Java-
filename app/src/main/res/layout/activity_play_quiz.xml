@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayQuizActivity">
+
+    <TextView
+        android:id="@+id/QuizNameInPlay"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Quiz Name"
+        android:textSize="40dp"
+        android:textColor="#E6A757"
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <TextView
+        android:id="@+id/QuestNumInPlay"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Question number 1/10"
+        android:textSize="30dp"
+        android:textColor="#E6A757"
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="00:00:00"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/countdown_timer_view"
+        />
+
+    <TextView
+        android:id="@+id/QuestTextInPlay"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="What is the first name of the president of the US?"
+        android:textSize="30dp"
+        android:textColor="@color/homeColor"
+        android:layout_marginTop="15dp"
+
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="(choose the correct answer)"
+        android:textSize="30dp"
+        android:textColor="#E6A757"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <Button
+        android:id="@+id/buttonInPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/homeColor"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"
+        android:text="Joe" />
+
+    <Button
+        android:id="@+id/button2InPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/homeColor"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"
+        android:text="Benyamin" />
+
+    <Button
+        android:id="@+id/button3InPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/homeColor"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"
+        android:text="Donald" />
+
+    <Button
+        android:id="@+id/button4InPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/homeColor"
+        android:layout_marginBottom="50dp"
+        android:textSize="18dp"
+        android:text="Steve" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="(progress: 0/0)"
+        android:textSize="30dp"
+        android:id="@+id/progressTV"
+        android:textColor="#E6A757"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+</LinearLayout>

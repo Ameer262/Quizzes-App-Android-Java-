@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateQuizFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background_create_fragment"    >
+
+    <!--      White Rectangle Layout:     -->
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="730dp"
+        android:orientation="vertical"
+        android:background="@drawable/white_corners_rectangle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="35sp"
+            android:textColor="@color/createColor"
+            android:textStyle="bold"
+            android:text="Create A New Quiz!"/>
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="19dp"
+            android:text="What's the category of your quiz?"
+            android:textStyle="bold"
+            android:textSize="19sp"
+
+            />
+
+        <Spinner
+            android:id="@+id/choiceSpinner"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_background_category"
+            android:layout_marginLeft="20dp"
+            android:layout_width="210dp"
+            android:padding="9dp"
+            android:layout_height="40dp" />
+
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="19dp"
+            android:text="What's the name of your quiz?"
+            android:textStyle="bold"
+            android:textSize="19sp"
+
+            />
+
+        <EditText
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_background_category"
+            android:layout_marginLeft="20dp"
+            android:hint="Name:"
+            android:id="@+id/quizNameInCreate"
+            android:paddingLeft="13dp"
+            android:textColorHint="@color/black"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:layout_width="292dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="19dp"
+            android:text="Describe your quiz in a few words:"
+            android:textStyle="bold"
+            android:textSize="19sp"
+
+            />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_background_category"
+            android:layout_marginLeft="18dp"
+            android:hint="Description:"
+            android:paddingLeft="13dp"
+            android:id="@+id/quizDescInCreate"
+            android:textColorHint="@color/black"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/numQadded"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/createColor"
+            android:text="Added questions: 0  (max: 10)"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:id="@+id/btnAddQ"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/createColor"
+            android:text="Add a new question!"
+            android:textSize="22sp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:id="@+id/btnSaveQuiz"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/createColor"
+            android:text="Save"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:id="@+id/btnrestart"
+            android:layout_marginTop="00dp"
+            android:backgroundTint="#00FFFFFF"
+            android:textColor="@color/createColor"
+            android:text="Reset Quiz"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

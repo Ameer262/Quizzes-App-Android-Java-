@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/quizwiz_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/quizwiz_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".SportsQuizzesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeographyQuizzesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimalsQuizzesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArtQuizzesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScienceQuizzesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FinishedQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimlasDetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeographyDetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScienceDetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArtDetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SportsDetailedActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".NotificationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".QuizDetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GenKnowledgeQuizzesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralKnowledgeDetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

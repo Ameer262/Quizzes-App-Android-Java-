@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeItem"
+        android:title="Home"
+        android:icon="@drawable/home_ic_custom"
+        />
+
+    <item
+        android:id="@+id/createQuizItem"
+        android:title="Create"
+        android:icon="@drawable/create_quiz_ic_custom"
+        />
+
+    <item
+        android:id="@+id/profileItem"
+        android:title="Profile"
+        android:icon="@drawable/profile_ic_custom"/>
+
+
+</menu>

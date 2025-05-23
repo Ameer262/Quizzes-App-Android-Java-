@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/signuppage_background"
+    tools:context=".SignUpActivity">
+
+
+    <EditText
+        android:id="@+id/getEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="0dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="22sp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_email_signup_focused"
+        android:drawablePadding="11dp"
+        android:paddingLeft="7dp"
+        android:paddingStart="12dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="12dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/homeColor" />
+
+    <EditText
+        android:id="@+id/getPassEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="0dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="22sp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/baseline_lock_24_focused"
+        android:drawablePadding="10dp"
+        android:paddingLeft="7dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/homeColor" />
+
+    <Button
+        android:id="@+id/forgotPasswordBTN"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="forgot password?"
+        android:textSize="15dp"
+        android:layout_marginRight="80dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:padding="0dp"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/homeColor"
+        android:text="Login"
+        android:textSize="22dp"
+        android:fontFamily="@font/poppins_bold"
+
+        android:textColor="#FFFFFF"
+        app:cornerRadius="13dp" />
+
+    <Button
+        android:id="@+id/newquizwizzer"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="new QuizWizzer? Sign Up"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:padding="0dp"/>
+
+
+</LinearLayout>

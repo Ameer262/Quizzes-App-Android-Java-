@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1042224669576",
+    "firebase_url": "https://ameerapp-9f743-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ameerapp-9f743",
+    "storage_bucket": "ameerapp-9f743.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042224669576:android:7f8e6996321b35c315903d",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYFEsCr6eEusQ7GahIa2tHThuBox4q9NU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

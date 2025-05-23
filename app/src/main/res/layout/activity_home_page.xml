@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity"
+    android:orientation="vertical"
+    android:background="@color/homeColor"    >
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentContainer"
+        android:layout_above="@+id/bottomBarID" />
+
+    <!--      White Rectangle Layout:     -->
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="610dp"
+        android:background="@drawable/white_corners_rectangle">
+    </LinearLayout>
+
+
+    <!--      Bottom Bar Layout:     -->
+    <LinearLayout
+        android:id="@+id/bottomBarID"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:elevation="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        tools:targetApi="lollipop">
+
+
+        <!--      Home Button Layout:     -->
+        <LinearLayout
+            android:id="@+id/homeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:background="@drawable/round_back_home_100"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/homeImage"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/home_ic_focused" />
+
+            <TextView
+                android:id="@+id/homeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/homeColor"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <!--      Create Button Layout:     -->
+        <LinearLayout
+            android:id="@+id/createLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/createImage"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/baseline_add_24" />
+
+            <TextView
+                android:id="@+id/createText"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/createColor"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <!--      Profile Button Layout:     -->
+        <LinearLayout
+            android:id="@+id/profileLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/baseline_person_24" />
+
+            <TextView
+                android:id="@+id/profileText"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/profileColor"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

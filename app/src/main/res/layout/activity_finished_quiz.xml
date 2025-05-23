@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FinishedQuizActivity">
+
+
+    <TextView
+        android:id="@+id/topWord"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Congratulations!"
+        android:textSize="65dp"
+        android:textColor="#E6A757"
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:text="You Officialy Finished"
+        android:textSize="45dp"
+        android:textColor="#E6A757"
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <TextView
+        android:id="@+id/doneQuizName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Quiz Name"
+        android:textSize="40dp"
+        android:textColor="#E6A757"
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <TextView
+        android:id="@+id/doneQuizCreatorName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="00dp"
+        android:text="By: (creator name)"
+        android:textSize="30dp"
+        android:textColor="#E6A757"
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <ImageView
+        android:id="@+id/doneImage"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/greenface" />
+
+    <TextView
+        android:id="@+id/quizMark"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+
+        android:text="With a mark of 8/10"
+        android:textSize="40dp"
+        android:textColor="#E6A757"
+        android:fontFamily="@font/caveatbrush"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+
+
+    <Button
+        android:id="@+id/doneQuizButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4CAF50"
+        android:padding="17dp"
+        android:text="Awesome!"
+        android:textSize="18dp" />
+
+</LinearLayout>

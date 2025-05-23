@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+android:background="@drawable/background_home_fragment"
+    android:orientation="vertical">
+
+
+    <!--      White Rectangle Layout:     -->
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="730dp"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:background="@drawable/white_corners_rectangle">
+
+        <LinearLayout
+            android:layout_marginTop="90dp"
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:verticalScrollbarPosition="right"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButtonGenKnowledge"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                app:cornerRadius="130dp"
+                android:contentDescription="General Knowledge"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="33dp"
+                android:src="@drawable/generalknowledgeicon" />
+
+            <ImageButton
+                android:id="@+id/imageButtonSports"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Sports"
+                app:cornerRadius="130dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/sportscategoryicon" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="-15dp"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:verticalScrollbarPosition="right"
+            >
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:text="General Knowledge"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/homeColor"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="39dp"
+                android:text="Sports"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/homeColor"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:verticalScrollbarPosition="right"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButtonArt"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="25dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Art and Music"
+                app:cornerRadius="130dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/art_category_icon" />
+            <ImageButton
+                android:id="@+id/imageButtonScience"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter"
+                app:cornerRadius="130dp"
+                android:contentDescription="Science"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/scicat" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:verticalScrollbarPosition="right"
+            >
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="29dp"
+                android:text="Art and Music"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/homeColor"/>
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="48dp"
+                android:text="Science"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/homeColor"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:verticalScrollbarPosition="right"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButtonGeography"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="25dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Geography"
+                app:cornerRadius="130dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/geogcat" />
+            <ImageButton
+                android:id="@+id/imageButtonAnimlas"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Animals"
+                app:cornerRadius="130dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/animlascat" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:verticalScrollbarPosition="right"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="40dp"
+                android:text="Geography"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/homeColor"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="48dp"
+                android:text="Animals"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/homeColor"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

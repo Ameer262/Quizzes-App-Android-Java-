@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".GeographyDetailedActivity">
+
+
+
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/caveatbrush"
+        android:gravity="center"
+        android:text="Geography"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/myOrange"
+        android:textSize="65dp" />
+
+
+    <ImageView
+        android:id="@+id/categoryImage"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:src="@drawable/geogcat"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+
+        android:fontFamily="@font/caveatbrush"
+        android:text="Description:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/myOrange"
+        android:textSize="40dp" />
+
+
+    <TextView
+        android:id="@+id/categoryDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+
+        android:text="Contains Geography-themed questions, Maps, Countries, Directions and more... QuizWiz Geographicly !"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/toQuizzesButtonGeo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#4CAF50"
+        android:padding="17dp"
+        android:text="Quizzes"
+        android:textSize="22dp" />
+
+</LinearLayout>
